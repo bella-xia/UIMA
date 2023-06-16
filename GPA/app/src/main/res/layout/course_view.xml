@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:scrollbars="vertical">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1">
+
+		<TableRow>
+			<TextView android:id="@+id/textView1" android:text="@string/name"
+				android:textSize="18sp" android:padding="3sp" android:gravity="end"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+			<EditText android:id="@+id/editName" android:text="@string/empty"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/grade" android:text="@string/grade"
+				android:textSize="18sp" android:padding="3dp" android:gravity="end"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+			<Spinner android:id="@+id/grade_list"
+				android:drawSelectorOnTop="true" android:prompt="@string/gradePrompt"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/credits" android:text="@string/credits"
+				android:textSize="18sp" android:padding="3dp" android:gravity="end"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+			<EditText android:id="@+id/editCredits" android:text="@string/empty"
+				android:inputType="numberDecimal" android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:id="@+id/semester" android:text="@string/semester"
+				android:textSize="18sp" android:padding="3dp" android:gravity="end"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+			<Spinner android:id="@+id/sem_list" android:layout_height="wrap_content"
+				android:layout_width="wrap_content"/>
+		</TableRow>
+
+	</TableLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:id="@+id/save_button" android:text="@string/save"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_weight="1"></Button>
+		<Button android:id="@+id/cancel_button" android:text="@string/cancel"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_weight="1"></Button>
+	</LinearLayout>
+
+</LinearLayout>

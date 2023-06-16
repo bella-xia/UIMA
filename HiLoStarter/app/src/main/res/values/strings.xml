@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HI-LO</string>
+    <string name="edit_message">Enter a guess between 1 and 100</string>
+    <string name="button_send">GUESS</string>
+</resources>

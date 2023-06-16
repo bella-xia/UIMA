@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="18sp"
+		android:text="@string/hello" />
+
+	<LinearLayout android:id="@+id/showGPA"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:textSize="18sp">
+
+		<TextView android:id="@+id/cum" android:text="@string/cum"
+			 android:textSize="18sp"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" android:gravity="center_horizontal" />
+
+		<TextView android:id="@+id/gpa_value" android:text="@string/empty"
+			 android:textSize="18sp"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" android:gravity="center_horizontal" />
+
+		<TextView android:id="@+id/tot_credits" android:text="@string/empty"
+			 android:textSize="18sp"
+			 android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:gravity="center_horizontal" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/twobuttons" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/addBtn" android:text="@string/add"
+			android:layout_width="fill_parent"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<Button android:id="@+id/clearBtn" android:text="@string/clear"
+            style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+	
+	<ListView android:id="@+id/crselist" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:isScrollContainer="true"
+		android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical"
+		android:soundEffectsEnabled="true" />
+
+
+</LinearLayout>

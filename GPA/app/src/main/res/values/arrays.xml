@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in CourseView.java -->
+    <string-array name="letterGrades">
+        <item>A+</item>
+        <item>A </item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B </item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C </item>
+        <item>C-</item>
+        <item>D+</item>
+        <item>D </item>
+        <item>F </item>
+    </string-array>
+
+    <array name="pointsJHU">
+        <item>4.0f</item>
+        <item>4.0f</item>
+        <item>3.7f</item>
+        <item>3.3f</item>
+        <item>3.0f</item>
+        <item>2.7f</item>
+        <item>2.3f</item>
+        <item>2.0f</item>
+        <item>1.7f</item>
+        <item>1.3f</item>
+        <item>1.0f</item>
+        <item>0.0f</item>
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+
+</resources>

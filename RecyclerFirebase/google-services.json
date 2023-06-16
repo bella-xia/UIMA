@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1003127563928",
+    "firebase_url": "https://testrepoapp.firebaseio.com",
+    "project_id": "testrepoapp",
+    "storage_bucket": "testrepoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003127563928:android:5911c5af3ac33bfc",
+        "android_client_info": {
+          "package_name": "com.uima.joanne.testrepoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003127563928-ed5opqjiv9b1m9ic0gq5a48lphdvp521.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uima.joanne.testrepoapp",
+            "certificate_hash": "3880b19dfb064dea067edee243dc9af15c7b6b0c"
+          }
+        },
+        {
+          "client_id": "1003127563928-j555878156hm3lvsh7qoqbfij7o7v17r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRYdd8hwY-SMejYSWTNPWIh5Y5goMg0oA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003127563928-j555878156hm3lvsh7qoqbfij7o7v17r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

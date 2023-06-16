@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+<TableLayout 
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:layout_gravity="center" android:stretchColumns="1"
+	>
+
+	<TableRow>
+		<TextView android:id="@+id/qcum" android:text="@string/cum"
+			android:gravity="center" android:textSize="18sp" android:padding="3sp"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+		<TextView />
+		<TextView android:id="@+id/qctotal" android:text="@string/ctotal"
+			android:gravity="center" android:textSize="18sp" android:padding="3sp"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+	</TableRow>
+
+	<TableRow>
+		<TextView android:id="@+id/qgpa_value" android:text="@string/empty"
+			android:gravity="center" android:textSize="18sp" android:padding="3sp"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+		<TextView />
+		<TextView android:id="@+id/qtot_credits" android:text="@string/empty"
+			android:gravity="center" android:textSize="18sp" android:padding="3sp"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+	</TableRow>
+
+  <View
+        android:layout_height="12sp"
+        android:background="#FF909090" />
+
+	<TableRow>
+		<TextView android:id="@+id/qgrade" android:text="@string/grade"
+			android:textSize="18sp" android:padding="3dip" android:gravity="end"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+		<TextView />
+		<TextView android:id="@+id/qcredits" android:text="@string/credits"
+			android:textSize="18sp" android:padding="3dip" android:gravity="end"
+			android:layout_height="wrap_content" android:layout_width="wrap_content" />
+	</TableRow>
+
+	<TableRow>
+		<Spinner android:id="@+id/qgrade_list"
+			android:drawSelectorOnTop="true" android:prompt="@string/gradePrompt"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView />
+		<EditText android:id="@+id/qeditCredits" android:text="@string/empty"
+			android:inputType="numberDecimal" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" />
+	</TableRow>
+</TableLayout>
+
+		<Button android:id="@+id/qsave_button" android:text="@string/add"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textColor="@color/colorPrimaryDark"/>
+
+		<Button android:id="@+id/qclear_button" android:text="@string/clear"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textColor="@color/colorAccent"/>
+			
+				</LinearLayout>
+
+
+  	 

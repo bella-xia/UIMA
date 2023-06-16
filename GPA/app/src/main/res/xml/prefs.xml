@@ -1,0 +1,28 @@
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <PreferenceCategory
+        app:title="Grade Points Category"
+        app:key="Grading">
+
+        <SwitchPreferenceCompat
+            app:key="PREF_APLUS_43"
+            app:title="A+ = 4.3"
+            app:summary="woohoo"
+            app:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help_category"
+        app:title="Help">
+
+        <Preference
+            app:key="other"
+            app:summary="This is just a placeholder"
+            app:title="Send feedback"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

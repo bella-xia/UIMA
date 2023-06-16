@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Currency Convert</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_label">Currency Converter</string>
+    <string name="From">From</string>
+    <string name="from_amount">From Amount</string>
+    <string name="percentage">%</string>
+    <string name="save_setting">Save Setting</string>
+    <string name="zero">0.0</string>
+    <string name="transaction_fee">Transaction Fee</string>
+    <string name="home_currency">Home Currency</string>
+    <string name="to_home_currency">To Home Currency</string>
+    <string name="no_default_home_currency">No Default Home Currency</string>
+
+    <string-array name="home_currencies">
+        <item>Select Home Currency</item>
+        <item>US Dollar (USD)</item>
+        <item>Euro (EUR)</item>
+        <item>Chinese Yuan (CNY)</item>
+        <item>Sterling Pound (GBP)</item>
+        <item>Swiss Franc (CHF)</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Select Currency</item>
+        <item>US Dollar (USD)</item>
+        <item>Euro (EUR)</item>
+        <item>Chinese Yuan (CNY)</item>
+        <item>Sterling Pound (GBP)</item>
+        <item>Swiss Franc (CHF)</item>
+    </string-array>
+</resources>
